@@ -3,8 +3,8 @@ import logoutButton from '../../components/logoutButton';
 import navBar from '../../components/navBar';
 import showBoards from './boards';
 
-const startApp = () => {
-  domBuilder();
+const startApp = (user) => {
+  domBuilder(user);
   navBar();
   logoutButton();
   showBoards();
