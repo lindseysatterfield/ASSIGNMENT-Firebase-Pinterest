@@ -26,14 +26,6 @@ const navBar = () => {
             <li class="nav-item">
               <a class="nav-link" href="#" id="pins">Pins</a>
             </li>
-            <li>
-            <input
-              class="form-control mr-sm-2"
-              id="search"
-              placeholder="Search Boards"
-              aria-label="Search"
-            />
-            </li>
           </ul>
           <div id="logout-button"></div>
         </div>
