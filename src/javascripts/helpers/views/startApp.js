@@ -1,3 +1,5 @@
+// import showBoards from '../../components/boards';
+import showBoards from '../../components/boards';
 import domBuilder from '../../components/domBuilder';
 import logoutButton from '../../components/logoutButton';
 import navBar from '../../components/navBar';
@@ -9,7 +11,7 @@ const startApp = (user) => {
   navBar();
   logoutButton();
   showBoardsTitle();
-  getBoards().then((boards) => console.warn(boards));
+  getBoards().then((boards) => showBoards(boards));
 };
 
 export default startApp;
