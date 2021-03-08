@@ -1,8 +1,9 @@
+import showPins from '../../components/pins';
 import getPins from '../data/pinData';
 
 const navigationEvents = () => {
   document.querySelector('#pins').addEventListener('click', () => {
-    console.warn(getPins());
+    getPins().then((pins) => showPins(pins));
   });
 };
 
