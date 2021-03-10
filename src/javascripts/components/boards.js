@@ -9,7 +9,7 @@ const showBoards = (array) => {
       <img class="card-img-top" style="height: 13em;" src="${board.imageUrl}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">${board.board_title}</h5>
-        <a href="#" class="btn btn-primary">View all pins</a>
+        <a href="#" class="btn btn-primary" id="see-board-pins-btn--${board.firebaseKey}">View all pins</a>
       </div>
     </div>`;
   });

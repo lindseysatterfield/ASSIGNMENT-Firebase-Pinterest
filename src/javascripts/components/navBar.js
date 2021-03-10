@@ -21,7 +21,7 @@ const navBar = () => {
               <a class="nav-link" href="#" id="boards">Boards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="pins">Pins</a>
+              <a class="nav-link" href="#" id="pins">Pins &#128204;</a>
             </li>
           </ul>
           <div id="logout-button"></div>
