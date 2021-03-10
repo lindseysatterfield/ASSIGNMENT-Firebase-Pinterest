@@ -10,6 +10,7 @@ const showBoards = (array) => {
       <div class="card-body">
         <h5 class="card-title">${board.board_title}</h5>
         <a href="#" class="btn btn-primary" id="see-board-pins-btn--${board.firebaseKey}">View all pins</a>
+        <button class="btn btn-danger" id="delete-board--${board.firebaseKey}">Delete Board</button>
       </div>
     </div>`;
   });
