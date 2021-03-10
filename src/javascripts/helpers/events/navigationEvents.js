@@ -1,5 +1,5 @@
 import showPins from '../../components/pins';
-import { getBoards, getSingleBoard } from '../data/boardData';
+import { deleteBoard, getBoards, getSingleBoard } from '../data/boardData';
 import showBoards from '../../components/boards';
 import { getPins, getPinsFromBoards } from '../data/pinData';
 import boardNameInfo from '../../components/boardNameInfo';
@@ -20,6 +20,13 @@ const navigationEvents = () => {
       const boardId = e.target.id.split('--')[1];
       getPinsFromBoards(boardId).then((pins) => showPins(pins));
       getSingleBoard(boardId).then((boards) => boardNameInfo(boards));
+    }
+  });
+
+  document.querySelector('body').addEventListener('click', (e) => {
+    if (e.target.id.includes('delete-board')) {
+      const firebaseKey = e.target.id.split('--')[1];
+      deleteBoard(firebaseKey).then((boardsArray) => showBoards(boardsArray));
     }
   });
 };
