@@ -22,5 +22,45 @@
     "pin_description" : "Upgrades include a double wall oven, beverage cooler, and 6-burner gas range",
     "pin_title" : "Kitchen Remodel",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVJ-C4COzJFWH1nDQ9J" : {
+    "board_id" : "-MVIxwJ2Uc2qBWz2kKxZ",
+    "firebaseKey" : "-MVJ-C4COzJFWH1nDQ9J",
+    "imageUrl" : "https://media1.popsugar-assets.com/files/thumbor/fe_TEBbRM3ZlH2WR2P-pI5hbqSI/876x0:4381x3505/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/12/18/763/n/46902966/4759e2855dfa5f7c857892.88399573_/i/what-kind-health-problems-do-golden-retrievers-have.jpg",
+    "pin_description" : "Cute golden boi",
+    "pin_title" : "Freddy",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVJ0bOeaDdeuzz0vkJZ" : {
+    "board_id" : "-MVIxwJ2Uc2qBWz2kKxZ",
+    "firebaseKey" : "-MVJ0bOeaDdeuzz0vkJZ",
+    "imageUrl" : "https://animals.net/wp-content/uploads/2018/07/Golden-Retriever-4.jpg",
+    "pin_description" : "Dog enjoying a nice day",
+    "pin_title" : "Luna",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVJ1aU70XVC3i6LttRP" : {
+    "board_id" : "-MV4DK-8-q1HOqOdGeh1",
+    "firebaseKey" : "-MVJ1aU70XVC3i6LttRP",
+    "imageUrl" : "https://loveincstatic.blob.core.windows.net/loveexploring/IMAGES/Southern_Utah_road_trip/Valley-of-the-gods-bluff.jpg",
+    "pin_description" : "This 17-mile driving loop takes in Utah’s flat-topped rock formations (mesas) and spires, rivalling those of busier Monument Valley",
+    "pin_title" : "Valley of the Gods, Utah",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVJ2wYTZx_uiL-UQpwD" : {
+    "board_id" : "-MV4BwonvI7xokUUrga_",
+    "firebaseKey" : "-MVJ2wYTZx_uiL-UQpwD",
+    "imageUrl" : "https://www.carolinescooking.com/wp-content/uploads/2019/03/eggs-Benedict-photo.jpg",
+    "pin_description" : "A delicious recipe that can be made at home instead of leaving for brunch",
+    "pin_title" : "Eggs Benedict",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVJ3d3YXdHq5O8Nc9zg" : {
+    "board_id" : "-MV4CWowE_U4JdQGa28v",
+    "firebaseKey" : "-MVJ3d3YXdHq5O8Nc9zg",
+    "imageUrl" : "https://diamondbuildersofamerica.com/wp-content/uploads/2017/10/kitchen-island-1200x675.jpg",
+    "pin_description" : "Remodeled kitchen with all new appliances, flooring, and countertops",
+    "pin_title" : "Modern Kitchen",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   }
 }

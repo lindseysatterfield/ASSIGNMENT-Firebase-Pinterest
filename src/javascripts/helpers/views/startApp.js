@@ -1,9 +1,8 @@
-// import showBoards from '../../components/boards';
 import showBoards from '../../components/boards';
 import domBuilder from '../../components/domBuilder';
 import logoutButton from '../../components/logoutButton';
 import navBar from '../../components/navBar';
-import getBoards from '../data/boardData';
+import { getBoards } from '../data/boardData';
 import navigationEvents from '../events/navigationEvents';
 import showTitle from './boardsTitle';
 
