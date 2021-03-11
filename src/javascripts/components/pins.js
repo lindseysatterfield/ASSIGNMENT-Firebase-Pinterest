@@ -13,7 +13,7 @@ const showPins = (array) => {
         <p class="card-text">${pin.pin_description}</p>
       </div>
       <div class="d-flex justify-content-center mb-2">
-        <button class="btn btn-danger text-center" style="width: 10rem;"id="delete-pin--${pin.firebaseKey}">Delete Pin</button>
+        <button class="btn btn-danger text-center" style="width: 10rem;"id="delete-pin--${pin.firebaseKey}--${pin.board_id}">Delete Pin</button>
       </div>  
     </div>`;
   });
