@@ -8,8 +8,8 @@ const showBoards = (array) => {
       <div class="card m-4" style="width: 18rem; border: 4px black solid;">
       <img class="card-img-top" style="height: 13em;" src="${board.imageUrl}" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">${board.board_title}</h5>
-        <a href="#" class="btn btn-primary" id="see-board-pins-btn--${board.firebaseKey}">View all pins</a>
+        <h5 class="card-title font-italic">${board.board_title}</h5>
+        <a href="#" class="btn btn-primary mb-3" id="see-board-pins-btn--${board.firebaseKey}">View all pins</a>
         <button class="btn btn-danger" id="delete-board--${board.firebaseKey}">Delete Board</button>
       </div>
     </div>`;
