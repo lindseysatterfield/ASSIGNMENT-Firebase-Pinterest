@@ -1,4 +1,3 @@
-import firebase from 'firebase/app';
 import 'firebase/auth';
 import addBoardForm from '../../components/addBoardForm';
 import addPinForm from '../../components/addPinForm';
@@ -9,7 +8,7 @@ import { createBoard, getSingleBoard } from '../data/boardData';
 import deleteBoardPins from '../data/boardsAndPins';
 import { createPins, deletePins, getPinsFromBoards } from '../data/pinData';
 
-const domEvents = () => {
+const domEvents = (uid) => {
   document.querySelector('body').addEventListener('click', (e) => {
     if (e.target.id.includes('see-board-pins-btn')) {
       const boardId = e.target.id.split('--')[1];
@@ -25,12 +24,12 @@ const domEvents = () => {
 
     if (e.target.id.includes('delete-board')) {
       const firebaseKey = e.target.id.split('--')[1];
-      deleteBoardPins(firebaseKey).then((boardsArray) => showBoards(boardsArray));
+      deleteBoardPins(firebaseKey, uid).then((boardsArray) => showBoards(boardsArray));
     }
 
     if (e.target.id.includes('delete-pin')) {
       const firebaseKey = e.target.id.split('--')[1];
-      deletePins(firebaseKey).then((pinsArray) => showPins(pinsArray));
+      deletePins(firebaseKey, uid).then((pinsArray) => showPins(pinsArray));
     }
 
     if (e.target.id.includes('submit-board')) {
@@ -38,10 +37,10 @@ const domEvents = () => {
       const boardObject = {
         board_title: document.querySelector('#board-title').value,
         imageUrl: document.querySelector('#board-image').value,
-        uid: firebase.auth().currentUser.uid
+        uid
       };
 
-      createBoard(boardObject).then((boardsArray) => showBoards(boardsArray));
+      createBoard(boardObject, uid).then((boardsArray) => showBoards(boardsArray));
       document.querySelector('form').reset();
     }
 
@@ -60,10 +59,10 @@ const domEvents = () => {
         pin_description: document.querySelector('#pin-description').value,
         imageUrl: document.querySelector('#pin-image').value,
         board_id: document.querySelector('#selected-board').value,
-        uid: firebase.auth().currentUser.uid
+        uid
       };
 
-      createPins(pinObject).then((pinsArray) => showPins(pinsArray));
+      createPins(pinObject, uid).then((pinsArray) => showPins(pinsArray));
       document.querySelector('form').reset();
     }
   });
