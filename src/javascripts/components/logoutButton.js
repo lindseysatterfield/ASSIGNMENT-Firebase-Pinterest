@@ -3,6 +3,7 @@ import 'firebase/auth';
 
 const signMeOut = () => {
   firebase.auth().signOut();
+  window.location.reload();
 };
 
 const logoutButton = () => {
