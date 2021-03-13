@@ -7,14 +7,14 @@ import domEvents from '../events/domEvents';
 import navigationEvents from '../events/navigationEvents';
 import showTitle from './boardsTitle';
 
-const startApp = (user) => {
-  domBuilder(user);
+const startApp = (userObject) => {
+  domBuilder();
   navBar();
   logoutButton();
-  navigationEvents();
-  domEvents();
+  navigationEvents(userObject.uid);
+  domEvents(userObject.uid);
   showTitle();
-  getBoards().then((boards) => showBoards(boards));
+  getBoards(userObject.uid).then((boards) => showBoards(boards));
 };
 
 export default startApp;
