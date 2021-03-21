@@ -1,5 +1,4 @@
 const showPins = (array) => {
-  document.querySelector('#board-name').innerHTML = '<h1>&#128204; &#128204; &#128204;</h1>';
   document.querySelector('#title-container').innerHTML = '';
   document.querySelector('#add-button').innerHTML = '<button type="button" id="add-pin-btn" class="btn btn-danger">Add a Pin</button>';
   document.querySelector('#corkboard').innerHTML = '';
