@@ -6,6 +6,8 @@ import { getPins } from '../data/pinData';
 const navigationEvents = (uid) => {
   document.querySelector('#pins').addEventListener('click', () => {
     document.querySelector('#title-container').innerHTML = '';
+    document.querySelector('#board-name').innerHTML = '';
+    document.querySelector('#board-name').innerHTML = '<h1>&#128204; &#128204; &#128204;</h1>';
     getPins(uid).then((pins) => showPins(pins));
   });
 
