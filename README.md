@@ -14,6 +14,7 @@ https://github.com/lindseysatterfield/ASSIGNMENT-Firebase-Pinterest/projects/1
 #### Features
 - Full create, read, update, and delete features (CRUD)
 - Google log in to save boards and pins specific to that user
+- Dynamic data used via Firebase
 - User can create boards and pins
 - User can delete boards and pins
 - User can update pins
