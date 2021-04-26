@@ -1,4 +1,4 @@
-import showBoards from '../../components/boards';
+import { showBoards } from '../../components/boards';
 import domBuilder from '../../components/domBuilder';
 import logoutButton from '../../components/logoutButton';
 import navBar from '../../components/navBar';

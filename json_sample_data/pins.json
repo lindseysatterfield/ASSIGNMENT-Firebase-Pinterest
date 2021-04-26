@@ -15,14 +15,6 @@
     "pin_title" : "Tuscan Chicken",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   },
-  "-MV4F5SHWJ40_p-TnNk2" : {
-    "board_id" : "-MV4CWowE_U4JdQGa28v",
-    "firebaseKey" : "-MV4F5SHWJ40_p-TnNk2",
-    "imageUrl" : "https://pro.com/static/43674248941a22dd2833db004b656a65/654ed/db9b1743814c0b7c5838b2338588dcc0d0d46dd3_91st-ave-mercer-island-wa-new-construction-kitchen-3.jpg",
-    "pin_description" : "Upgrades include a double wall oven, beverage cooler, and 6-burner gas range",
-    "pin_title" : "Kitchen Remodel",
-    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
-  },
   "-MVJ-C4COzJFWH1nDQ9J" : {
     "board_id" : "-MVIxwJ2Uc2qBWz2kKxZ",
     "firebaseKey" : "-MVJ-C4COzJFWH1nDQ9J",
@@ -35,7 +27,7 @@
     "board_id" : "-MVIxwJ2Uc2qBWz2kKxZ",
     "firebaseKey" : "-MVJ0bOeaDdeuzz0vkJZ",
     "imageUrl" : "https://animals.net/wp-content/uploads/2018/07/Golden-Retriever-4.jpg",
-    "pin_description" : "Dog enjoying a nice day",
+    "pin_description" : "Dog enjoying a nice day on the porch",
     "pin_title" : "Luna",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   },
@@ -43,7 +35,7 @@
     "board_id" : "-MV4DK-8-q1HOqOdGeh1",
     "firebaseKey" : "-MVJ1aU70XVC3i6LttRP",
     "imageUrl" : "https://loveincstatic.blob.core.windows.net/loveexploring/IMAGES/Southern_Utah_road_trip/Valley-of-the-gods-bluff.jpg",
-    "pin_description" : "This 17-mile driving loop takes in Utah’s flat-topped rock formations (mesas) and spires, rivalling those of busier Monument Valley",
+    "pin_description" : "This 17-mile driving loop takes in Utah’s flat-topped rock formations",
     "pin_title" : "Valley of the Gods, Utah",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   },
@@ -55,12 +47,36 @@
     "pin_title" : "Eggs Benedict",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   },
-  "-MVJ3d3YXdHq5O8Nc9zg" : {
-    "board_id" : "-MV4CWowE_U4JdQGa28v",
-    "firebaseKey" : "-MVJ3d3YXdHq5O8Nc9zg",
-    "imageUrl" : "https://diamondbuildersofamerica.com/wp-content/uploads/2017/10/kitchen-island-1200x675.jpg",
-    "pin_description" : "Remodeled kitchen with all new appliances, flooring, and countertops",
-    "pin_title" : "Modern Kitchen",
+  "-MVdJXWeNcdiXZfkfWLK" : {
+    "board_id" : "-MVdIEOjK3Ik5kZ3209A",
+    "firebaseKey" : "-MVdJXWeNcdiXZfkfWLK",
+    "imageUrl" : "https://images.homedepot-static.com/productImages/193d72a4-beb9-43a1-b947-d1443101d0d9/svn/costa-farms-house-plants-90408-1f_600.jpg",
+    "pin_description" : "With its preference for indirect light, aloe would love a spot on your desk or bedside table",
+    "pin_title" : "Aloe Plant",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVgXAbUj9Hsw_gHJ7CB" : {
+    "board_id" : "-MVgWNadaxp8hVlElLqq",
+    "firebaseKey" : "-MVgXAbUj9Hsw_gHJ7CB",
+    "imageUrl" : "https://cdn.vox-cdn.com/thumbor/1yeeCTRsimZ0EIJUI4G9r8E-lRM=/277x347:4032x3024/1200x800/filters:focal(1758x1365:2402x2009)/cdn.vox-cdn.com/uploads/chorus_image/image/60083811/IMG_8683.0.jpg",
+    "pin_description" : "A virtual pet app that was popular in the late 90s",
+    "pin_title" : "Tamagotchi",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVgc6d9jkru1toO-ovo" : {
+    "board_id" : "-MVgWNadaxp8hVlElLqq",
+    "firebaseKey" : "-MVgc6d9jkru1toO-ovo",
+    "imageUrl" : "https://i.pinimg.com/originals/aa/ba/e8/aabae88f7131c10eb4a44554095ad567.jpg",
+    "pin_description" : "Dunkaroos are a snack food from Betty Crocker, first launched in 1990",
+    "pin_title" : "Dunkaroos",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVgcYA9MJyabzmbUjtC" : {
+    "board_id" : "-MVdIEOjK3Ik5kZ3209A",
+    "firebaseKey" : "-MVgcYA9MJyabzmbUjtC",
+    "imageUrl" : "https://www.thespruce.com/thmb/3ZzeafMMYBupme3O5dodMz3uoxI=/2048x1545/filters:no_upscale():max_bytes(150000):strip_icc()/snake-plant-care-overview-1902772-04-3f69d04885af4613bf2eda197704fe20.jpg",
+    "pin_description" : "A house plant that requires little attention",
+    "pin_title" : "Snake Plant",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   }
 }

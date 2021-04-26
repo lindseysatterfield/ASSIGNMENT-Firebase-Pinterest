@@ -16,4 +16,9 @@ const showBoards = (array) => {
   });
 };
 
-export default showBoards;
+const emptyBoards = () => {
+  document.querySelector('#add-button').innerHTML = '<button type="button" id="add-board-btn" class="btn btn-danger mb-5">Add a Board</button>';
+  document.querySelector('#corkboard').innerHTML = '<h4>No boards found. Please add a board!</h4>';
+};
+
+export { showBoards, emptyBoards };

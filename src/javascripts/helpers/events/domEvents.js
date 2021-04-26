@@ -2,8 +2,8 @@ import 'firebase/auth';
 import addBoardForm from '../../components/addBoardForm';
 import addPinForm from '../../components/addPinForm';
 import boardNameInfo from '../../components/boardNameInfo';
-import showBoards from '../../components/boards';
-import showPins from '../../components/pins';
+import { showBoards } from '../../components/boards';
+import { showPins } from '../../components/pins';
 import { createBoard, getSingleBoard } from '../data/boardData';
 import deleteBoardPins from '../data/boardsAndPins';
 import {

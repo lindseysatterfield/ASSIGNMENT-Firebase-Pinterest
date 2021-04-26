@@ -8,8 +8,14 @@ const dbUrl = firebaseConfig.databaseURL;
 // GET PINS
 const getPins = (uid) => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/pins.json?orderBy="uid"&equalTo="${uid}"`)
-    .then((response) => resolve(Object.values(response.data)))
-    .catch((error) => reject(error));
+    .then((response) => {
+      if (response.data) {
+        const pinsArray = Object.values(response.data);
+        resolve(pinsArray);
+      } else {
+        resolve([]);
+      }
+    }).catch((error) => reject(error));
 });
 
 // GET ALL PINS FROM A BOARD
