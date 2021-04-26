@@ -1,11 +1,8 @@
-// USE WITH FIREBASE AUTH
-// import checkLoginStatus from './helpers/auth';
 import checkLoginStatus from './helpers/auth';
-import 'bootstrap'; // import bootstrap elements and js
+import 'bootstrap';
 import '../styles/main.scss';
 
 const init = () => {
-// USE WITH FIREBASE AUTH
   checkLoginStatus();
 };
 

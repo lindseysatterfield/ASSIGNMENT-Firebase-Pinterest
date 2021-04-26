@@ -5,12 +5,6 @@
     "imageUrl" : "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/26/0/FNK_Tuscan-Chicken-Skillet_H2_s4x3.jpg.rend.hgtvcom.616.462.suffix/1537973085542.jpeg",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   },
-  "-MV4CWowE_U4JdQGa28v" : {
-    "board_title" : "Kitchens",
-    "firebaseKey" : "-MV4CWowE_U4JdQGa28v",
-    "imageUrl" : "https://pro.com/static/43674248941a22dd2833db004b656a65/654ed/db9b1743814c0b7c5838b2338588dcc0d0d46dd3_91st-ave-mercer-island-wa-new-construction-kitchen-3.jpg",
-    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
-  },
   "-MV4DK-8-q1HOqOdGeh1" : {
     "board_title" : "Travel",
     "firebaseKey" : "-MV4DK-8-q1HOqOdGeh1",
@@ -21,6 +15,18 @@
     "board_title" : "Retriever Fever",
     "firebaseKey" : "-MVIxwJ2Uc2qBWz2kKxZ",
     "imageUrl" : "https://media1.popsugar-assets.com/files/thumbor/fe_TEBbRM3ZlH2WR2P-pI5hbqSI/876x0:4381x3505/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/12/18/763/n/46902966/4759e2855dfa5f7c857892.88399573_/i/what-kind-health-problems-do-golden-retrievers-have.jpg",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVdIEOjK3Ik5kZ3209A" : {
+    "board_title" : "Millennial Plant Phase",
+    "firebaseKey" : "-MVdIEOjK3Ik5kZ3209A",
+    "imageUrl" : "https://images.homedepot-static.com/productImages/193d72a4-beb9-43a1-b947-d1443101d0d9/svn/costa-farms-house-plants-90408-1f_600.jpg",
+    "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
+  },
+  "-MVgWNadaxp8hVlElLqq" : {
+    "board_title" : "90s Nostalgia",
+    "firebaseKey" : "-MVgWNadaxp8hVlElLqq",
+    "imageUrl" : "https://s3.amazonaws.com/zweb-s3.uploads/ez2/wp-content/uploads/2019/12/GettyImages-843884278.jpg",
     "uid" : "sKcbZCWfdUaKYFCJok7qub6NSq33"
   }
 }

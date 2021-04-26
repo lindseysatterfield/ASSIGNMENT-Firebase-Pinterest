@@ -20,4 +20,9 @@ const showPins = (array) => {
   });
 };
 
-export default showPins;
+const emptyPins = () => {
+  document.querySelector('#add-button').innerHTML = '<button type="button" id="add-pin-btn" class="btn btn-danger mb-5">Add a Pin</button>';
+  document.querySelector('#corkboard').innerHTML = '<h4>No pins found. Please add a pin!</h4>';
+};
+
+export { showPins, emptyPins };
