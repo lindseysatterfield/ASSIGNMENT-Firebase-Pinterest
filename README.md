@@ -2,8 +2,8 @@
 
 #### Overview
 Passably Pinterest is an app in which users can create boards with associated pins to save images with descriptions of that image on a card. Pins belong to boards. Pins can also be updated. Cards then get posted to a corkboard to show all boards and pins. If the user just wants to see pins associated with that board, the user can click to view only that board and its pins. Have fun pinning!
-#### Deployed project
-[Passably Pinterest](https://lindseysatterfield-passably-pinterest.netlify.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/cefbde8f-6952-4812-9202-43f50e13aa46/deploy-status)](https://app.netlify.com/sites/lindseysatterfield-passably-pinterest/deploys)
+#### Deployed project [![Netlify Status](https://api.netlify.com/api/v1/badges/cefbde8f-6952-4812-9202-43f50e13aa46/deploy-status)](https://app.netlify.com/sites/lindseysatterfield-passably-pinterest/deploys)
+[Passably Pinterest](https://lindseysatterfield-passably-pinterest.netlify.app/)
 
 #### User description
 This is an app for someone who wants to save images and descriptions about an image in an organized manner. The user can treat it like a virtual vision board that will never run out of space! 
